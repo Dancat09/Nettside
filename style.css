@@ -12,3 +12,17 @@ body{
     display: contents;
     color: rgb(0, 0, 0);
 } 
+
+.container {
+    display: flex;
+} 
+
+.Box {
+    background-color: rgb(230, 209, 183);
+    padding: 40px;
+    margin: 40px;
+} 
+
+.start {
+    justify-content: flex-start;
+} 
