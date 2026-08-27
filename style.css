@@ -1,5 +1,30 @@
 body{
-    background-color: rgb(208, 230, 231);
+    background-color: white;
+    color: black;
+    font-family: sans-serif;
+    transition: backgraund-color 0.3s, color 0.3s;
+}
+
+body[data-theme='dark']{
+    background-color: black;
+    color: white;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    margin: 2rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(171, 226, 222);;
+    font-size: 1rem;
+    margin-left: 1750px;
+    margin-top: -60px;
+}
+
+body [data-theme= "dark"] button {
+    background-color: #333;
+    color: #fff;
 }
 
 .Menybar {
@@ -11,18 +36,4 @@ body{
 .TextBar {
     display: contents;
     color: rgb(0, 0, 0);
-} 
-
-.container {
-    display: flex;
-} 
-
-.Box {
-    background-color: rgb(230, 209, 183);
-    padding: 40px;
-    margin: 40px;
-} 
-
-.start {
-    justify-content: flex-start;
 } 
