@@ -83,3 +83,12 @@ function loadCountt() {
   }
   updateCountt();
 } 
+
+const liste = ["Teknologi er best når det bringer mennesker sammen!",
+  "Først løser du problemet. Deretter skriver du koden!",
+  "Tiden du nyter å kaste bort, er ikke bortkastet tid,",
+  "Tiden vi tilbringer sammen er den mest dyrebare vi har",
+  "Livet er hva dine tanker gjør det til","Enkelhet er den ultimate sofistikasjon."]
+function liste() {
+
+}
