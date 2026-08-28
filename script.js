@@ -49,3 +49,37 @@ function loadCount() {
   }
   updateCount();
 } 
+
+
+let countt = 0; 
+
+function updateCountt() {
+  document.getElementById("countt").innerHTML = countt;
+}
+
+function increaseCountt() {
+  countt++;
+  updateCountt();
+}
+
+function decreaseCountt() {
+  countt--;
+  updateCountt();
+}
+
+function resetCountt() {
+  countt = 0;
+  updateCountt();
+}
+
+function saveCountt() {
+  localStorage.setItem("countt", countt);
+}
+
+function loadCountt() {
+  let saved = localStorage.getItem("countt");
+  if (saved !== null) {
+    countt = Number(saved);
+  }
+  updateCountt();
+} 
