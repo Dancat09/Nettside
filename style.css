@@ -10,18 +10,6 @@ body[data-theme='dark']{
     color: white;
 }
 
-button {
-    padding: 0.5rem 1rem;
-    margin: 2rem;
-    cursor: pointer;
-    border: none;
-    border-radius: 5px;
-    background-color: rgb(171, 226, 222);;
-    font-size: 1rem;
-    margin-left: 1750px;
-    margin-top: -60px;
-}
-
 body [data-theme= "dark"] button {
     background-color: #333;
     color: #fff;
@@ -35,4 +23,28 @@ body [data-theme= "dark"] button {
 
 .TextBar {
     display: contents;
+} 
+
+.mudus {
+    display: flex;
+    background-color: rgb(171, 226, 222);
+    padding: 0.5rem 1rem;
+    margin: 2rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-left: 1750px;
+    margin-top: -36px;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    margin: 2rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(171, 226, 222);
+    font-size: 1rem;
+    margin-top: -60px;
 } 
